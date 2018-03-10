@@ -1,0 +1,2 @@
+f[i,j]=min{f[i,k]+f[k+1,j-k]}+sum[i,j];
+f[i,1]:=0;

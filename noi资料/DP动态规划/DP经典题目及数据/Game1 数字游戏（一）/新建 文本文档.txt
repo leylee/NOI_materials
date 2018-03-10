@@ -1,0 +1,2 @@
+f[i,j]=max{((sum[i]-sum[k]) mod 10+10) mod 10}*g[k,j-1]
+f[i,1]:=(sum[i] mod 10+10) mod 10;
